@@ -4,8 +4,8 @@ export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "Sat Naing",
   profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  desc: "Ernesto's blog based on AstroPaper.",
+  title: "Ernesto's Paper",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -31,7 +31,9 @@ export const LOGO_IMAGE = {
   height: 46,
 };
 
-export const SOCIALS: SocialObjects = [
+export const SOCIALS: SocialObjects = [];
+
+const def = [
   {
     name: "Github",
     href: "https://github.com/satnaing/astro-paper",
